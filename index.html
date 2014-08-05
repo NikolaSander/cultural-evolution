@@ -50,9 +50,9 @@
   	</header>
   	
 	<div class="credits">
-	<h3 style="text-align:center"><a href="#howto">How to read the plot?</a></h3>
+	<h3 style="text-align:center"><a href="#howto"><b>Click here for details on how to read the plot</b></a></h3>
 	<p style="text-align:center; line-height: 1em; margin: 20px 0 0 0;">
-	Switch between 7 periods defined by the year of death: 1CE-1500, 1501-1600, 1601-1700, 1701-1800, 1801-1850, 1851-1900, 1901-1950
+	Switch between 7 periods defined by the year of death: 1CE-1600, 1601-1700, 1701-1800, 1801-1850, 1851-1900, 1901-1950, 1951-2000
 	</p>
 	</div>
 	
@@ -67,26 +67,19 @@
 	
 	<footer role="contentinfo">
 
-	 <div class="column-wrap-2">
+	 <div class="column-wrap-1">
 		<div class="column">
 		<div class="column-item">
           <h2 style="text-align:left;"><a id="howto">How to read the plot</a></h2>
           <p>Places of birth and death are represented by the circle’s segments   
 			and each country/place is assigned a unique colour.</p>  
-          <p>Flows have the same colour as the place of birth, and the width indicates their size.</p>   
-          <p>There is also gap (see red pointers) between flow and place of death.</p> 
+          <p>Flows have the same colour as the place of birth, and the width indicates their size.
+		  There is a gap between the end of the flow and place of death (red pointers).</p> 
           <p>Only flows between places of birth/death that recorded at least 170 migrants over the entire
-		  period are shown (<a href="freebase_dataset_based_on_SchichDataS1.csv">download the data</a>).</p>
-		  <p>Total in- and outflows shown in the tooltips include only those flows included in the visualisation.</p>
+		  period are shown (<a href="freebase_dataset_based_on_SchichDataS1.csv">download the data underlying the visualisation</a>).</p>
 		  <p>Switch between time periods using number keys (1,2,3,4,5,6,7)</p>
-		  <p><i>Create your own circular plot with our <a href="https://github.com/jo/circular-migration-plot"  target="_blank">custom d3.js library</a>.</i></p> 
-		</div>
-		</div>
 
-        <div class="column">
-		<div class="column-item">
-
-		<img src="images/legend.png">
+		<img style="margin: 15px 0 0 0" src="images/legend.png">
 		  
 		</div>
 		</div>
@@ -96,42 +89,32 @@
 		  
 	<hr>	  
 	
-     <div class="column-wrap-2">
+     <div class="column-wrap-1">
 		<div class="column">
 		<div class="column-item">
-          <h2 style="text-align:left">One Open Dataset - Two Visualisations</h2>
+          <h2 style="text-align:left">One Big Open Dataset - Two Visualisations</h2>
          
-		  <p>In their article titled <a href="http://www.sciencemag.org/content/345/6196/558.short" target="_blank">"A network framework of cultural history"</a>, 
-		  Maximilian Schich and his colleagues visualised the cultural evolution using network flow maps. I find the printed images of the large cultural network a little hard to read.
-		  The very large number of arcs between nodes makes it difficult to tease out the main corridors of migration from place of birth to place of death and how they changed over time.
+		  <p>Maximilian Schich and his colleagues visualise the cultural evolution using network flow maps. The maps in their article 
+		  titled <a href="http://www.sciencemag.org/content/345/6196/558.short" target="_blank">"A network framework of cultural history"</a> show a 
+		  very large number of arcs and nodes, making it difficult to tease out the main corridors of migration from place of birth to place of death and how they changed over time.
 		  </p> 
 		  <p>
-		  The network visualisation works very well when using moving images. The excellent video embedded in a story by Alison Abbott on nature.com nicely visualises the large cultural network. 
-		  In the video, the visual complexity is reduced by effective narration and a focus on one region at a time. 
+		  The animated visualisation of the cultural network shown in the video below by nature.com works very well. The narrated video tells an excellent story of how culture evolved 
+		  as notable people moved across the globe. The visual complexity is reduced by effective narration and a focus on one region at a time.  
 		  </p>
 		  <p>
-		  Kara Manke from npr.org introduced me to the work by Schich et al. Her <a href="http://www.npr.org/blogs/goatsandsoda/2014/08/01/336646562/how-cultures-move-across-continents" target="_blank">story</a>, for 
-		  which she asked me for comments, was published in the 'Goast and Soda' blog. I thought that the circular migration plot we had developed for visualising our 
-		  <a href="http://www.global-migration.info/" target="_blank">new migration estimates</a> could provide some additional insight into the global patterns of cultural evolution.<p>
-
-		  <p>Both visualisations have their advantages and disadvantages. Network flow maps give a clear sense of location and direction, and changes over time can be revealed effectively using animation. 
-			 But it can be difficult to visualise complex and dynamic networks without overwhelming the map. Circular plots cannot provide the locational detail of an (animated) network map, 
-             but they effectively summarise all flows in the system and allow direct comparisons of the sizes of flows. 
-			 
-		  <p>The evolution of culture from Europe (esp. Rome) to North America, and from the east to the west coast is shown very well in the map and in the plot. 
-			 But in addition to this shift, the circular plot reveals surprisingly little migration from France during the French Revolution, and a stronger focus on the U.S. as a destination of notable people than, for example, 
-			 the seminal works by <a href="https://cartographia.wordpress.com/category/charles-joseph-minard/" target="_blank">Charles Joseph Minard</a> on world migration in the 19th century suggest. A reflection of selectivity bias?
-		 </p>
-		</div>
-		</div>
-
-        <div class="column">
-		<div class="column-item">
+		  The interactive circular plot we had originally developed for visualising <a href="http://www.global-migration.info/" target="_blank">global migration flows</a> allow the cultural evolution
+		  to be viewed from a different angle. Both visualisations have their advantages and disadvantages. Network flow maps give a clear sense of location and direction, and changes over time can be 
+		  revealed effectively using animation. But it can be difficult to visualise complex and dynamic networks without overwhelming the map. 
+		  </p>
+		  <p>
+		  Circular plots cannot provide the locational detail of an (animated) network map, but they effectively summarise all flows in the system and allow direct comparisons of the sizes of flows. The
+		  large size of flows within the United States in the 20th century may point to bias and incompleteness of the Freebase dataset.
+		  A compromise we had to make so as to allow direct comparisons of flows over time was to use a 2012 geography when identifying the country that each location (identified in the Freebase data using
+		  latitute and longitude) falls into. 
 		
-		<iframe  style="margin: 50px 0 0 0" width="504" height="284" src="http://www.youtube.com/embed/4gIhRkCcD4U" frameborder="0" allowfullscreen></iframe>
- 		
-		<img style="margin: 50px 0 0 0" src="images/minard.jpg">
-		
+		<iframe  style="margin: 30px 0 0 0" width="640" height="360" src="http://www.youtube.com/embed/4gIhRkCcD4U" frameborder="0" allowfullscreen></iframe>
+ 			
 		</div>
 		</div>
 		<div class="clear"></div>
@@ -149,7 +132,7 @@
           <p>Martin Krzywinski for creating <a href="http://circos.ca/">Circos</a>.</p>
 		  <p>Mike Bostock for his awesome <a href="http://d3js.org/">D3.js library</a>.</p>
 		  <p><a href="http://www.metropop.eu/">Ramon Bauer</a> for his precious feedback and collaboration.</p>
-          <p><a href="http://http://www.oeaw.ac.at/vid/">Vienna Institute of Demography</a> for their support of our data visualisation projects.</p>
+          <p><a href="http://http://www.oeaw.ac.at/vid/">Vienna Institute of Demography</a> for supporting our data visualisation projects.</p>
 		</div>
 		</div>
 		
@@ -159,7 +142,8 @@
       <hr>
 
       <div class="license">
-        This visualisation is made available under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC-BY 4.0</a> International license.
+        This visualisation is made available under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC-BY 4.0</a> International license.</p>
+		<p style="color: #BA1212">Create your own circular plot with our <a style="color: #BA1212" href="https://github.com/jo/circular-migration-plot"  target="_blank">custom d3.js library</a>.</p> 
       </div>
 	  
  	<br><br>
@@ -197,7 +181,7 @@
       var aLittleBit = Math.PI / 100000;
 
       d3.json(datafile, function(data) {
-        var now = 1500;
+        var now = 1600;
         var chart = Globalmigration.chart(data, {
           element: '#diagram',
           now: now,
@@ -248,7 +232,18 @@
       loadScript(document, 'script', 'platform.twitter.com/widgets.js', 'twitter-wjs');
     })();
   </script>
-  
+
+<!-- google analytics tag for cultural-evolution -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49985908-2', 'auto');
+  ga('send', 'pageview');
+
+</script>  
   
  
 </body>

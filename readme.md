@@ -1,6 +1,6 @@
 
-### One Dataset - two complementary visualisations of cultural mobility over two centuries. 
+## What Big Open Data Reveal About the Cultural Evolution
 
-#### Visualising the places of birth and death of famous people over the last two millennia. 
+### One Dataset - two visualisations of the birth and death location of famous people over two centuries. 
 
-Please visit www.nikolasander.com/culture-on-the-move
+Please visit www.nikolasander.com/cultural-evolution
